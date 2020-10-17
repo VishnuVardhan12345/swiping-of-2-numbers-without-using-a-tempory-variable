@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	printf("what is your name : ");
+	char name[30];
+	scanf("%s", &name);
+	printf("what is your age : ");
+	int age=0;
+	scanf("%d",&age);
+	printf("your name is %s", name);
+	printf(" and your age is %d",age);
+}
